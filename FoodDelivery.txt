@@ -1,0 +1,93 @@
+2.3 Database Design
+Tables:
+
+Users
+id (Primary Key)
+username
+password
+email
+phone
+address
+
+
+Restaurants
+id (Primary Key)
+name
+address
+cuisine
+rating
+
+
+Menu
+id (Primary Key)
+restaurant_id (Foreign Key)
+item_name
+description
+price
+
+
+Orders
+id (Primary Key)
+user_id (Foreign Key)
+restaurant_id (Foreign Key)
+total_price
+order_date
+status
+
+
+Order_Items
+id (Primary Key)
+order_id (Foreign Key)
+menu_id (Foreign Key)
+quantity
+price
+
+
+Reviews
+id (Primary Key)
+user_id (Foreign Key)
+restaurant_id (Foreign Key)
+rating
+comment
+review_date
+
+
+9561113901
+
+OrderId:
+user-id:
+username:
+useraddress:
+restaurant id:
+restaurant address:
+MenuId:
+MenuName:
+MenuCategory:
+TotalAmount:
+DateAndTime:
+PaymentMethod:
+PaymentType:
+Status:
+Shubham Umratkar
+14:21
+UserMobile:
+RestaurantID:
+Shubham Umratkar
+14:22
+OrderId:
+user-id:
+username:
+useraddress:
+UserMobile:
+RestaurantID:
+restaurant address:
+MenuId:
+MenuName:
+MenuCategory:
+TotalAmount:
+DateAndTime:
+PaymentMethod:
+PaymentType:
+Status:
+DeliveryPartnerID:
+DeliveryPArtnerName:
